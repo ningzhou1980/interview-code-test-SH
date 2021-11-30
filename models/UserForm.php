@@ -27,7 +27,7 @@ class UserForm extends Model
     {
         return [
             [['steps'], 'required'],
-            [['steps'], 'integer'],
+            [['steps'], 'integer', 'max' => 50000],
         ];
     }
 
