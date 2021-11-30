@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\User;
+use app\models\UserForm;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -61,68 +63,25 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
-    }
+        $model = new UserForm();
 
-    /**
-     * Login action.
-     *
-     * @return Response|string
-     */
-    public function actionLogin()
-    {
-        if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
+        $model->userName = 'House Stark';
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            /*
+             * In real page, we should have user login status. So I can call
+             * $user = Yii::$app->user->identity to get login user model and change the
+             * points by $user->steps = $model->steps, then save value by $user->save()
+             * or:
+             * $user = User::findOne(['name' => $model->userName]);
+             * $user->steps = $model->steps;
+             * $user->save()
+             */
+
+            //change value in the cache
+            $model->saveStepInCache();
         }
 
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        }
-
-        $model->password = '';
-        return $this->render('login', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Logout action.
-     *
-     * @return Response
-     */
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
-
-    /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
-    {
-        return $this->render('about');
+        return $this->render('index', ['model' => $model]);
     }
 }

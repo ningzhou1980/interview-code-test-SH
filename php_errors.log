@@ -1,0 +1,159 @@
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[28-Nov-2021 10:33:27 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[28-Nov-2021 10:42:33 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[28-Nov-2021 10:47:40 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[28-Nov-2021 10:49:39 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[28-Nov-2021 11:02:53 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[29-Nov-2021 08:36:53 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[29-Nov-2021 08:48:02 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'iconv' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  PHP Startup: Invalid library (appears to be a Zend Extension, try loading using zend_extension=opcache from php.ini) in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/mbstring.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so (Error loading shared library /usr/local/lib/php/extensions/no-debug-non-zts-20190902/pdo_odbc.so: No such file or directory)) in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'xml' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'SimpleXML' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'calendar' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'exif' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'gd' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'gettext' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'intl' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'ldap' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'pdo_dblib' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[29-Nov-2021 08:49:52 UTC] PHP Warning:  Module 'zip' already loaded in Unknown on line 0

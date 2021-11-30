@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Join Me!",
+        "image": "join-me.jpg",
+        "points": 50334
+    },
+    {
+        "name": "Team Awesome",
+        "image": "team-awesome.png",
+        "points": 46892
+    },
+    {
+        "name": "House Stark",
+        "image": "house-stark.jpg",
+        "points": 28456
+    },
+    {
+        "name": "Ninja Turtles",
+        "image": null,
+        "points": 10300
+    },
+    {
+        "name": "Super Steppers",
+        "image": null,
+        "points": 0
+    }
+]

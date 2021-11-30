@@ -10,7 +10,7 @@ services:
       - ./:/app:delegated
       - ./docker/config/prod/php.ini:/usr/local/etc/php/php.ini
     environment: 
-      PHP_IDE_CONFIG: "serverName=agency.lawonline.ning.nz"
+      PHP_IDE_CONFIG: "serverName=sh.local.ning.nz"
       ENABLE_PHPFPM: "true"
       ENABLE_CRON_JOB: "false"
       ENABLE_YII2_QUEUE: "true"
@@ -32,10 +32,10 @@ services:
           - agency.nginx
       app-bridge:
         aliases: 
-          - agency.lawonline.ning.nz
-    labels: 
-      - "traefik.frontend.rule=Host:agency.lawonline.ning.nz"
-      - "traefik.enable=true"
+          - sh.local.ning.nz
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.nginx.rule=Host(`sh.local.ning.nz`)
     volumes: 
       - ./:/app:delegated
       - ./docker/config/dev/nginx/default.conf:/etc/nginx/conf.d/default.conf

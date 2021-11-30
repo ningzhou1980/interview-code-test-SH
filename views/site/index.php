@@ -1,53 +1,110 @@
 <?php
+/**
+ * @var $this yii\web\View
+ * @var $model UserForm
+ */
 
-/* @var $this yii\web\View */
+use app\models\UserForm;
+use yii\bootstrap\ActiveForm;
+use yii\bootstrap\Html;
 
-$this->title = 'My Yii Application';
+$this->title = 'My page';
+
+$users = $model->readResourceFile();
+$currentUser = $model->getUserInfo($model->userName);
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+<div class="row">
+    <nav class="col-sm-4 d-none sidebar">
+        <botton class="row" id="user" data-toggle="collapse" data-target="#other-info">
+            <div class="col-sm-12 well">
+                <div class="logo">
+                    <?= $model->getUserLogo($currentUser) ?>
+                    <span class="badge badge-light">#<?= $model->position+1 ?></span>
+                </div>
+                <div class="detail">
+                    <div class="name"><?= Html::encode(strtoupper($currentUser['name'])) ?></div>
+                    <div class="description">CHALLENGE POINTS</div>
+                    <div class="point"><?= Yii::$app->formatter->asInteger($currentUser['points']) ?></div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+        </botton>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+        <div id="other-info">
+            <div class="row" id="rankings">
+                <div class="col-xs-12 well">
+                    <div class="list-group">
+                        <div class="header">
+                            <div class="logo img-circle">
+                                <?= Html::img('@web/images'.DIRECTORY_SEPARATOR.'trophy.svg') ?>
+                            </div>
+                            <div class="detail">
+                                <div class="name">OVERALL</div>
+                                <div class="description">RANKINGS</div>
+                            </div>
+                        </div>
+                        <?php
+                        foreach ($users as $index => $user) {
+                            $className = ($index % 2 === 0) ? ' even' : ' odd';
+                            $className .= $index === $model->position ? ' active' : '';
+                            ?>
+                            <button class="list-group-item<?= $className ?>">
+                                <span class="col-xs-8 text-left">
+                                    <?= $model->getUserLogo($user) ?>
+                                    <span class="rank"><?= ($index+1)."." ?></span>
+                                    <span class="name"><?= Html::encode($user['name']) ?></span>
+                                </span>
+                                <span class="col-xs-4 text-right">
+                                    <strong><?= Yii::$app->formatter->asInteger($user['points']) ?>pts</strong>
+                                </span>
+                            </button>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            <div class="row" id="about">
+                <div class="well">
+                    <div class="header">
+                        <?= Html::img('@web/images'.DIRECTORY_SEPARATOR.'question.svg') ?>
+                        <div class="title">ABOUT</div>
+                        <div class="date">Close on <strong>Wednesday, 23 Dec. 2021, 5:00AM</strong></div>
+                    </div>
+                    <p>
+                        'SHIFT' was designed to show you how a seemingly small change, like adding more steps into your day
+                        with your team, can have a huge impact on you and those with whom you participated.
+                    </p>
+                </div>
             </div>
         </div>
+    </nav>
+    <div class="col-sm-8 main">
+        <div class="well">
+            <h2>SHIFT CHALLENGE</h2>
+            <div class="banner">
+            </div>
+            <div class="content">
+                <div class="date"><?= date('l, M. d') ?></div>
+                <h1>TRACK YOUR STEPS</h1>
+                <p class="hint-block">Using your movement-tracking device, keep track of the number of steps you take each day.</p>
+                <p><strong>Enter your step count for this day</strong></p>
+                <div class="form">
+                    <?php
+                    $form = ActiveForm::begin(['id' => 'article-update-form'])
+                    ?>
 
+                    <?= $form->field($model, 'steps', [
+                        'template' => '{beginLabel}{labelTitle}{endLabel}<div class="input-group">{input}
+                <span class="input-group-addon">steps</span></div>{error}{hint}'
+                    ])->textInput(); ?>
+
+                    <div class="form-group">
+                        <?= Html::submitButton('SAVE ANSWER', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                    </div>
+                    <?php ActiveForm::end(); ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
